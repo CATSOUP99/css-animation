@@ -1,0 +1,46 @@
+#leftwheel{
+    animation:armabham 1s linear infinite;
+    transform-box:fill-box;
+    transform-origin:center;
+
+} 
+@keyframes armabham{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform:rotateZ(360deg);
+    }
+}
+#rightwheel{
+    animation:armabham 1s linear infinite;
+    transform-box:fill-box;
+    transform-origin:center;
+
+}
+@keyframes meemer{
+ from{
+    transform: rotateX(0deg);
+    }
+    to{
+        transform:rotateX(20deg);
+    }
+
+
+    }
+    #hat{
+
+   animation:meemer 1s linear infinite;
+   } 
+   #back{
+animation: backgrou 2s ease-in-out infinite alternate;
+}
+@keyframes backgrou{
+from{
+transform: RotateY(0deg);
+}
+to{
+transform: RotateY(20deg);
+}}
+
+    
